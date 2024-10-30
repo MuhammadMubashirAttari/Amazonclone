@@ -1,0 +1,84 @@
+.boxesver1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.box1,.box2,.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 47vh;
+    width: 40vh;
+    border: white;
+    margin: 4vh;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding:4px;
+}
+.box1 img,.box2 img,.box3 img{
+    width: 40vh;
+height: 40vh;
+}
+.box1 a,.box2 a,.box3 a{
+    margin-top: 4px;
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+    font-size: large;
+}
+.boxesver2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.box4,.box5,.box6{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 47vh;
+    width: 40vh;
+    border: white;
+    margin: 4vh;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding:4px;
+}
+.box4 img,.box5 img,.box6 img{
+    width: 40vh;
+height: 40vh;
+}
+.box4 a,.box5 a,.box6 a{
+    margin-top: 4px;
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+    font-size: large;
+
+}
+
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(3, 3, 148);
+    height: 5vh;
+    font-family: sans-serif;
+}
+.top a{
+color:white;
+text-decoration: none;
+
+}

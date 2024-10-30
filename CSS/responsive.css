@@ -1,0 +1,58 @@
+@media screen and (max-width:1245px) {
+    .cart,.account,.lang ,.order{
+        display: none;
+    }
+}
+@media screen  and (max-width:954px){
+    .header{
+        height: 20vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header .address{
+        margin: 0;
+    }
+    .imp{
+    width: 350px;
+    }
+    nav .menu,nav.all{
+display: flex;
+    }
+    nav #other{
+        display: none;
+    }
+}
+@media screen and (max-width:826px){
+    .slidebar .one,.slidebar .two{
+        display: none;
+}
+.boxesver1,.boxesver2{
+    justify-content: center;
+    align-items: center;
+}
+
+}
+@media screen  and (max-width:1148px){
+    .payementproducts{
+        display: none;
+    }
+}
+@media screen  and (max-width:920px){
+    .makemoney{
+        display: none;
+    }
+    .knowus{
+       margin-left: 2vh;
+       font-size: large;
+    }
+}
+@media screen and (max-width:280px){
+.searchbar{
+    width: 22vh;
+}
+.imp{
+    justify-content: center;
+    align-items: center;
+}
+}
